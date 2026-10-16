@@ -28,12 +28,13 @@ export default defineConfig({
       },
     },
   },
+  optimizeDeps: {
+    entries: ["pages/**/*.html"],
+  },
   build: {
     rollupOptions: {
       input: {
         index: "src/pages/index.html",
-        about: "src/pages/about.html",
-        // add every HTML file you need built
       },
     },
   },

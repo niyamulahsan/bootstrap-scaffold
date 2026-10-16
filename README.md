@@ -32,8 +32,12 @@ game-design/
 ## 🚀 Getting started
 
 ```bash
-npm install
-vp dev             # or: npm run dev
+  vpx degit niyamulahsan/bootstrap-scaffold myapp | npx degit niyamulahsan/bootstrap-scaffold myapp
+```
+
+```bash
+npm install | vp install
+npm run dev | vp dev
 ```
 
 Then open **http://localhost:5173/pages/index.html** (it opens automatically).
